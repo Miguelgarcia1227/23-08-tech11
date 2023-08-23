@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Novidades.css">
+    <link rel="stylesheet" href="ampliar.css">
+    <link rel="stylesheet" href="footer.css">
+
+</head>
+
+
+
+<body>
+    <header>
+        <nav>
+
+
+            <div class="logo_principal">
+                <a class="logo_site" href="#"><img src="/img1/logo_principal.png" alt="Logo principal"></a>
+            </div>
+
+
+            <div class="icon-container1">
+                <a href="#"><img class="bola_inicio" id="icon" src="/img1/inicio.png" alt="Ícone"></a>
+                <span id="clickable-word" class="hidden"><strong class="palavra_inicio">Inicio</strong></span>
+            </div>
+
+            <div class="icon-container2">
+                <a href="#"><img class="bola_compras" id="icon2" src="/img1/compras.png" alt="Ícone2">
+                    <span id="clickable-word2" class="hidden2"><strong class="palavra_compras">Compras</strong></span>
+            </div>
+
+
+
+            <div class="icon-container3">
+                <a href="#"><img class="bola_novidades" id="icon3" src="/img1/novidades.png" alt="Ícone3"></a>
+                <span id="clickable-word3" class="hidden3"><strong class="palavra_novidades">Novidades</strong></span>
+            </div>
+
+
+
+
+            <div class="icon-container4">
+                <a href="#"><img class="bola_contato" id="icon4" src="/img1/mdi_telephone.png" alt="Ícone4"></a>
+                <span id="clickable-word4" class="hidden4"><strong class="palavra_contato">Contato</strong></span>
+            </div>
+
+            <div id="login-link2" class="icon-container5">
+                <a href="#"><img id="login-link2" class="bola_top10" src="/img1/10.png" alt="Ícone5">
+                    <span id="clickable-word5" class="hidden5"><strong class="palavra_top10">Top 10</strong></span>
+            </div>
+
+
+
+
+
+            <div class="container_login">
+                <a id="login-link" class="botao_login" href="#">Login</a>
+            </div>
+
+
+            <div id="login-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form>
+                        <img class="iconi_principal" src="/img1/nome.png" alt="iconi que indica o usuario.">
+                        <br>
+                        <label class="nome_usuario" for="username"><img class="iconi_nome" src="/img1/usuario.png"
+                                alt=""></label>
+
+                        <input placeholder="Email" class="input_nome" texttype="text" id="username" name="username">
+
+                        <br>
+                        <label for="password"><img class="iconi_senha" src="/img1/senha.png"
+                                alt="iconi de um cadiado."></label>
+
+                        <input placeholder="Senha" class="input_senha" type="password" id="password" name="password">
+
+                        <br>
+                        <label class="checkbox-container">
+                            <strong class="checkbox_line">Lembrar minha senha</strong>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <br>
+                        <button class="botao_entrar" type="submit">Logar</button>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </nav>
+
+
+        <nav>
+            <div class="modal2" id="modal2">
+                <div id="modal-content2" class="modal-content2">
+                    <span class="close2">&times;</span>
+                    <form>
+
+                        <a class="headset" id="headset" href="#">Headset</a>
+
+                        <hr class="linha_1">
+
+                        <a class="celulares" id="celulares" href="#">Celulares</a>
+
+                        <hr class="linha_2">
+
+                        <a class="monitores" href="#">Monitores</a>
+
+                        <hr class="linha_3">
+
+                        <a class="processadores" id="processadores" href="#">Processadores</a>
+
+                        <hr class="linha_4">
+
+
+                    </form>
+                </div>
+
+    </header>
+
+    <div class="cabeca">
+        <img src="/img1/cabeça.png" alt="Imagem 1" class="gallery-image" onclick="ampliarImagem(this)">
+    </div>
+
+    <div class="novidades">
+        <img src="/img1/5_Novidades.png" alt="novidades">
+    </div>
+
+    <div class="tech">
+        <img src="/img1/Tech10.png" alt="tech">
+    </div>
+    <div>
+        <hr>
+    </div>
+
+    <div class="texto1">
+        <h1>Videos sobre tecnologia </h1>
+    </div>
+
+    <div class="video1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Cki8gFZHCw8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="video2">
+        <iframe class="video2" width="560" height="315" src="https://www.youtube.com/embed/tIc6WCJFWew"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <div class="video3">
+        <iframe class="video3" width="560" height="315" src="https://www.youtube.com/embed/Dy1WGXKbTOA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+    </div>
+
+    <div>
+        <hr class="linha_22">
+    </div>
+
+    <div class="imagemIA">
+        <img src="/img1/imagensporIA.png" alt="Imagem 2" class="gallery-image" onclick="ampliarImagem(this)">
+    </div>
+
+    <div>
+        <hr class="linha_23">
+    </div>
+
+    <div class="texto2">
+        <h1>Iphone 14 Pro Max</h1>
+    </div>
+
+    <div class="iphone">
+        <img src="/img1/iphone.png" alt="Imagem 3" class="gallery-image" onclick="ampliarImagem(this)">
+    </div>
+
+    <div class="lista">
+        <h2>
+            <li>Island</li>
+            <li>Tela Sempre Ativa</li>
+            <li>Tecnologia ProMotion com taxas de atualização adaptativas de até 120 Hz</li>
+            <li>HDR</li>
+            <li>True Tone</li>
+            <li>Ampla tonalidade de cores (P3)</li>
+            <li>Resposta tátil</li>
+            <li>Proporção de contraste: 2.000.000:1 (típica)</li>
+            <li>Brilho máx. de 1000 nits (típico); pico de brilho de 1600 nits (HDR); pico de brilho de 2000 nits
+                (ambiente externo)</li>
+            <li>Revestimento resistente a impressões digitais e oleosidade</li>
+            <li>Suporte à exibição simultânea de vários idiomas e caracteres </li>
+        </h2>
+    </div>
+
+    <div class="video4">
+        <iframe class="video4" width="560" height="315" src="https://www.youtube.com/embed/Yr-D9NJ8coo"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+    </div>
+
+    <div>
+        <hr class="linha_24">
+    </div>
+
+    <div class="chip">
+        <img src="/img1/chip.png" alt="Imagem 4" class="gallery-image" onclick="ampliarImagem(this)">
+    </div>
+
+    <div class="texto_iphone">
+        <h2>
+            A indústria de chips está passando por uma <br> transformação com o padrão aberto RISC-V,<br> permitindo que
+            startups
+            e indivíduos criem seus <br> próprios chips, que já estão sendo usados em <br> produtos como fones de
+            ouvido, discos
+            rígidos <br> e processadores de IA.
+        </h2>
+    </div>
+
+
+
+
+
+    <div class="ampliada-container">
+        <img src="" alt="Imagem Ampliada" class="ampliada-image">
+    </div>
+
+    <br>
+
+    <img src="" alt="" onmouseover="mostrarMensagem('Esta é a Imagem 1')" onmouseout="mostrarMensagem('')">
+
+
+    <div id="mensagem"></div>
+
+    <footer>
+        <div class="quadrado_cinza_1">
+
+
+            <img class="logo_principal_2" src="/img1/logo_principal_2.png" alt="">
+
+            <img class="twiter" src="/img1/twiter.png" alt="">
+            <img class="instagram" src="/img1/instagram.png" alt="">
+            <img class="tiktok" src="/img1/tiktok.png" alt="">
+            <img class="facebook" src="/img1/facebook.png" alt="">
+
+        </div>
+
+        <div class="segundo_quadrado_cinza">
+
+            <hr class="linha_invi_2">
+            <h3 class="titulo_footer">Páginas</h3>
+            <h3 class="titulo_footer_2">Site feito com AI</h3>
+
+            <hr class="linha_12">
+
+            <a class="footer_contato" href="#">Contato</a>
+            <br>
+            <a class="footer_novidades" href="#">Novidades</a>
+            <br>
+            <a class="footer_compras" href="#">Compras</a>
+            <br>
+
+            <a class="footer_login " href="#">Login</a>
+            <br>
+            <a class="footer_top10" href="#">Top10</a>
+            <br>
+
+            <a class="footer_imagine" href="#">Imagine.art</a>
+            <br>
+            <a class="footer_osean" href="#">Osean.art</a>
+            <br>
+            <a class="footer_lexica" href="#">Lexica.com</a>
+            <br>
+            <a class="footer_opanai" href="#">Openai.com</a>
+            <br>
+
+        </div>
+
+    </footer>
+
+    <script src="Header.js"></script>
+    <script src="imagens.js"></script>
+
+
+
+
+</body>
+
+
+
+</html>

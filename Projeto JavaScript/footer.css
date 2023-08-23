@@ -1,0 +1,170 @@
+.linha_11 {
+    position: relative;
+    margin-top: 4em;
+    margin-left: 9em;
+    margin-right: 9em;
+    border: 1px solid #976C36;
+}
+
+.quadrado_cinza_1 {
+    position: relative;
+    background-color: #363639;
+    height: 120px;
+    margin-top: 27.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 66px;
+}
+
+.logo_principal_2 {
+    position: absolute;
+    margin-top: 20px;
+}
+
+.twiter {
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 2.5em;
+}
+
+.instagram {
+    position: absolute;
+    margin-left: 72%;
+    margin-top: 2.5em;
+}
+
+.tiktok {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 2.5em;
+}
+
+.facebook {
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 2.5em;
+}
+
+.segundo_quadrado_cinza {
+    position: relative;
+    background-color: #363639;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.5em;
+    height: 340px;
+    border-radius: 66px;
+}
+
+.titulo_footer {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 10%;
+    font-size: 3em;
+    color: #C7A172;
+}
+
+.titulo_footer_2 {
+    position: relative;
+    margin-left: 68%;
+    font-size: 3em;
+    margin-top: -1em;
+    color: #C7A172;
+}
+
+.linha_invi_2 {
+    position: relative;
+    margin-left: 1em;
+    border: 1px black;
+}
+
+.linha_12 {
+    position: relative;
+    margin-left: 4em;
+    margin-right: 4em;
+    border: 1px solid #976C36;
+}
+
+
+
+.footer_contato {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 10%;
+    margin-top: 1em;
+}
+
+.footer_novidades {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+.footer_compras {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    margin-left: 10%;
+    font-weight: 700;
+    margin-top: 3em;
+}
+
+.footer_login {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 23%;
+    margin-top: -0.7em;
+}
+
+.footer_top10 {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 23%;
+    margin-top: 0.29em;
+}
+
+
+
+.footer_imagine {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 68.5%;
+    margin-top: -1.8em;
+}
+
+.footer_osean {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 68.5%;
+    margin-top: -1em;
+}
+
+.footer_lexica {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 68.5%;
+    margin-top: -0.2em;
+}
+
+.footer_opanai {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 81%;
+    margin-top: -3.38em;
+}
